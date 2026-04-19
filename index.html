@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Arte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1> noticias </h1>
+    <p>noticias del estado de mexico </p>
+</header>
+
+<section class="galeria">
+    <div class="card" onclick="mostrarInfo('fuertes lluvias')">
+        <img src="n1.jpg">
+        <h3>fuertes lluvias </h3>
+    </div>
+
+    <div class="card" onclick="mostrarInfo('insendio en ecatepect')">
+        <img src="n2.jpg">
+        <h3>insendio en ecatepect</h3>
+    </div>
+
+    <div class="card" onclick="mostrarInfo('detencion de beiculo')">
+        <img src="n3.jpg">
+        <h3>detencion de beiculo</h3>
+    </div>
+</section>
+
+<section id="info"></section>
+
+<script src="app.js"></script>
+</body>
+</html>
