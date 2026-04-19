@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #ff5a5f;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#info {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
